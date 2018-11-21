@@ -3,7 +3,7 @@ package com.lmm.adapter.has;
 /**
  * @Author: lmm
  * @Date: Created in 2018/9/24
- * @Description:  Adaptee
+ * @Description:  Adaptee,即实际情况
  */
 public class Banner {
 

@@ -3,7 +3,7 @@ package com.lmm.adapter.has;
 /**
  * @Author: lmm
  * @Date: Created in 2018/9/24
- * @Description: Target
+ * @Description: Target,即需求
  */
 public abstract class Print {
 

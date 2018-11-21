@@ -1,7 +1,5 @@
 package com.lmm.adapter.has;
 
-import com.lmm.adapter.has.Print;
-
 /**
  * @Author: lmm
  * @Date: Created in 2018/9/24
@@ -14,7 +12,6 @@ public class PrintBanner extends Print{
     public PrintBanner(String string){
         this.banner = new Banner(string);
     }
-
 
     @Override
     void printWeak() {
