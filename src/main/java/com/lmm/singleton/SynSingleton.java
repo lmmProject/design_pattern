@@ -9,7 +9,9 @@ public class SynSingleton {
 
     private static volatile SynSingleton  singleton;
 
-    private SynSingleton(){}
+    private SynSingleton(){
+        slowdown();
+    }
 
     public static SynSingleton getInstance(){
         if (singleton == null){
@@ -20,6 +22,14 @@ public class SynSingleton {
             }
         }
         return singleton;
+    }
+
+    private void slowdown(){
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 }
